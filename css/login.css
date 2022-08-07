@@ -1,0 +1,151 @@
+.w{
+    width: 1172px;
+    margin: 0 auto;
+}
+.logo{
+    padding-top: 18px;
+}
+.box{
+    width: 100%;
+    height: 486px;
+    background-color: #7e00ff;
+}
+.login_bg{
+    position: relative;
+}
+.login_bg img{
+    float: left;
+}
+.login{
+    position: absolute;
+    top: 60px;
+    right: 101px;
+    padding: 22px 47px 0;
+    width: 379px;
+    height: 362px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.login_hd{
+    width: 100%;
+    height: 20px;
+}
+.login_hd ul li{
+    float: left;
+    line-height: 20px;
+    font-size: 18px;
+}
+.login_hd ul li a{
+    display: block;
+    width: 139px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 18px;
+}
+.login_hd ul li:nth-child(3) a{
+    color: #c81623;
+}
+.login_point{
+    padding-left: 7px;
+    margin-top: 22px;
+    width: 100%;
+    height: 26px;
+    line-height: 26px;
+    background-color: #fffdee;
+    border: solid 1px #f5eecf;
+}
+.login_bd ul li .username,
+.login_bd ul li .password{
+    position: relative;
+    width: 100%;
+    height: 36px;
+    overflow: hidden;
+    border: solid 1px #bbbaba;
+}
+.login_bd ul li .username{
+    margin-top: 10px;
+}
+.username i:nth-child(1),
+.password i:nth-child(1){
+    display: block;
+    float: left;
+    width: 37px;
+	height: 34px;
+	background-color: #cfcdcd;
+}
+.username i:nth-child(2),
+.password i:nth-child(2){
+    position: absolute;
+    float: left;
+    top: 0;
+    left: 0;
+    width: 37px;
+	height: 34px;
+}
+.username i:nth-child(2){ 
+    background: url(../images/icons.png) no-repeat -10px -200px;
+}
+.password i:nth-child(2){
+    background: url(../images/icons.png) no-repeat -72px -200px;
+}
+.login_bd ul li .password{
+    margin-top: 17px;
+}
+.username_txt,
+.password_txt{
+    padding-left: 18px;
+    float: left;
+    width: 246px;
+    height: 100%;
+}
+.login_bd .checkli{
+    margin-top: 20px;
+    line-height: 14px;
+}
+.checkbox{
+    float: left;
+
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+}
+.fg_password{
+    float: right;
+}
+.btn input{
+    display: block;
+    margin-top: 21px;
+    width: 100%;
+    height: 41px;
+    background-color: #c81623;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+.login_footer{
+    margin-top: 23px;
+    line-height: 47px;
+}
+.login_footer img{
+    float: left;
+    margin-left: -19px;
+}
+.login_footer a{
+    float: right;
+    font-size: 14px;
+    color:#1474af;;
+}
+.mod_copyright{
+    padding-top: 30px;
+    text-align: center;
+}
+.links{
+    margin-bottom: 15px;
+}
+.links a{
+    margin: 10px;
+}
+.copyright{
+    line-height: 20px;
+}
